@@ -72,3 +72,7 @@ make test
 ├── entrypoint.sh
 └── Makefile
 ```
+
+## Tested on
+
+- macOS, MacBook Air M4
