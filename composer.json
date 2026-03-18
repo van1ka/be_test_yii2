@@ -1,0 +1,28 @@
+{
+    "name": "app/yii2-sum-even-api",
+    "description": "Yii2 REST API — Sum Even Numbers",
+    "type": "project",
+    "require": {
+        "php": ">=8.3",
+        "yiisoft/yii2": "~2.0.51"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
