@@ -69,15 +69,6 @@ make test
 │   └── web.php                    # Configuration and routing
 ├── Dockerfile
 ├── docker-compose.yml
+├── entrypoint.sh
 └── Makefile
 ```
-
-## Makefile Commands
-
-| Command        | Description                       |
-|----------------|-----------------------------------|
-| `make build`   | Build Docker container            |
-| `make up`      | Start container                   |
-| `make down`    | Stop container                    |
-| `make test`    | Run tests                         |
-| `make install` | Install Composer dependencies     |
